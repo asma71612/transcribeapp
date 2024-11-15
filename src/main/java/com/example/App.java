@@ -13,8 +13,8 @@ import com.amazonaws.services.transcribe.model.TranscriptionJob;
 
 public class App {
     public static void main(String[] args) {
-        String accessKey = "access_key";
-        String secretKey = "secret_key";
+        String accessKey = "";
+        String secretKey = "";
         String region = "us-east-2"; // Replace with your region
         String bucketName = "bucket_name"; // Replace with your S3 bucket
         String fileUri = "s3://" + bucketName + "/file_name.mp3"; // Replace with your file
