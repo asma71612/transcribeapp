@@ -13,11 +13,11 @@ import com.amazonaws.services.transcribe.model.TranscriptionJob;
 
 public class App {
     public static void main(String[] args) {
-        String accessKey = "AKIA356SKDIERWN37VLS";
-        String secretKey = "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";
+        String accessKey = "access_key";
+        String secretKey = "secret_key";
         String region = "us-east-2"; // Replace with your region
-        String bucketName = "capstone-asma-audio-files"; // Replace with your S3 bucket
-        String fileUri = "s3://" + bucketName + "/test4.mp3"; // Replace with your file
+        String bucketName = "bucket_name"; // Replace with your S3 bucket
+        String fileUri = "s3://" + bucketName + "/file_name.mp3"; // Replace with your file
         String jobName = "transcription-job-1"; // Give your job a unique name
 
         BasicAWSCredentials awsCreds = new BasicAWSCredentials(accessKey, secretKey);
